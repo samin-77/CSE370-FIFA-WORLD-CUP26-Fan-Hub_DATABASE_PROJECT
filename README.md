@@ -1,12 +1,109 @@
-# TactIQ - FIFA World Cup 2026 Fan & Analytics Platform
+<div align="center">
 
-A full-stack web application for the FIFA World Cup 2026 featuring live standings, bracket predictions, fantasy football, player statistics, team comparisons, trivia quizzes, host venues, and team squads.
+# ⚽ TactIQ
 
-**Live:** [tact-iq-mrpi.vercel.app](https://tact-iq-mrpi.vercel.app/)
+## FIFA World Cup 2026 Fan & Analytics Platform
+
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=node.js)
+![MySQL](https://img.shields.io/badge/MySQL-8-orange?logo=mysql)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+**Live Demo:** [tact-iq-mrpi.vercel.app](https://tact-iq-mrpi.vercel.app/)
 
 ---
 
-## Tech Stack
+### 🎯 Your Ultimate Digital Companion for the 2026 FIFA World Cup
+
+TactIQ seamlessly blends real-time tournament tracking with interactive fan engagement.  
+The platform keeps you updated with live group standings, knockout brackets, and comprehensive  
+team squad data while letting you explore host stadiums and historical records.
+
+</div>
+
+---
+
+## 👥 Contributors
+
+| ID | Name |
+|-----|------|
+| 24301059 | Ishfak Mahbub Samin |
+| 24301457 | Syed Owin Efaz |
+| 23101215 | Sharmin Akter Mim |
+
+---
+
+## 📖 Project Idea
+
+**TACTIQ** (FIFA World Cup 2026 Fan Hub) is a comprehensive, full-stack web application designed to be the ultimate hub for football fans following the 2026 FIFA World Cup. Built with robust analytics and interactive features, it serves as both a detailed information portal and an engaging entertainment platform.
+
+### What TactIQ Is About
+
+TactIQ is about bringing the excitement of the World Cup directly to the fans by bridging the gap between raw data and interactive gameplay.
+
+<details>
+<summary><strong>🔍 For the Data Enthusiast</strong></summary>
+
+The platform offers real-time group standings, dynamic knockout brackets, side-by-side head-to-head team comparisons, and deep dives into World Cup history and host venues.
+</details>
+
+<details>
+<summary><strong>🎮 For the Interactive Fan</strong></summary>
+
+It transforms passive watching into active participation. Users can step into the shoes of a manager with the Fantasy Football Mini-League, predict upcoming match scores, and challenge themselves with tournament trivia.
+</details>
+
+<details>
+<summary><strong>⚙️ For the Administrators</strong></summary>
+
+Behind the scenes, a powerful event management dashboard ensures that all matches, stats, and updates are seamlessly controlled and broadcasted to the users in real-time.
+</details>
+
+**Ultimately, TactIQ celebrates the global game by offering a one-stop, data-driven, and highly interactive environment for the biggest sporting event in the world.**
+
+---
+
+## ✨ Features
+
+### 📊 1. Group Standings & Knockout Bracket Tracker
+
+This feature provides a dynamic, real-time visualization of the tournament's progression. It automatically calculates live group stage tables, updating points, goal differences, and rankings the second a goal is scored. Once the group stage concludes, it seamlessly populates a visual knockout bracket, letting fans trace every team's potential path from the **Round of 32** all the way to the **Grand Finale**.
+
+### 🎯 2. Match Score Predictor
+
+The Predictor lets fans put their football intuition to the test by guessing exact scores for every tournament match. To ensure fairness, predictions lock automatically at kickoff, encouraging users to lock in their tactical insights early. Users earn points based on their accuracy, climbing an interactive global leaderboard that turns every single fixture into an engaging, high-stakes competition.
+
+### ⚽ 3. Fantasy Football Mini-League
+
+This immersive feature allows users to step into the role of a manager by building their dream 11-player squad within a strict **$100M budget**. Users must make smart tactical choices, choosing real-world players whose live tournament performances translate directly into fantasy points. Mini-leagues foster intense community rivalry as fans track live leaderboard updates week-to-week.
+
+### 🏆 4. World Cup History & Records Hub
+
+Acting as a dedicated digital museum, this feature celebrates the rich legacy of soccer's greatest tournament. It provides a comprehensive archival database highlighting legendary milestones, iconic goals, and historical achievements like past Golden Boot winners. It provides crucial context, letting users easily compare modern tactical greatness against legendary squads of the past.
+
+### 👥 5. Team Squad Showcase
+
+This interactive directory displays complete, official rosters for all **48 competing nations** in the tournament. Each team profile highlights crucial player statistics, field positions, current club affiliations, and vital international caps. Fans can easily filter and search through hundreds of players to discover emerging young talents or track superstar forms.
+
+### 📈 6. Head-to-Head Team Comparison
+
+Designed for analytical minds, this feature offers a side-by-side data matrix comparing any two tournament teams. It maps out critical performance metrics, including recent match form, average goals per game, and historical head-to-head results. Clean data visualizations make it easy to spot tactical strengths and weaknesses before the referee even blows the whistle.
+
+### 🧠 7. Tournament Trivia & Predictor Quiz
+
+This feature injects gamified fun into the platform, challenging users with dynamic trivia and quick quiz modules. It tests fans on historical milestones, bizarre tournament facts, and rapid-fire questions about the current 2026 edition. A built-in point system keeps user engagement incredibly high, giving fans something fun to do during rest days when no live matches are playing.
+
+### 🏟️ 8. Host Stadiums & Venues Showcase
+
+A visual and informative guide, this showcase profiles the iconic host stadiums spanning across North America for the 2026 tournament. Users can explore stadium capacities, local climate quirks, city backgrounds, and the specific matches assigned to each venue. It brings the physical infrastructure of the tournament straight to the fan's digital screen.
+
+### 🛠️ 9. Admin Match & Event Management Dashboard
+
+The engine behind the platform, this centralized command center allows administrators to control tournament data seamlessly. Admins can update match scores, log individual goals or assists, and hand out disciplinary cards in real-time. It automatically syncs these entries across the database, pushing instant updates to the fantasy league, brackets, and predictors.
+
+---
+
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -21,35 +118,7 @@ A full-stack web application for the FIFA World Cup 2026 featuring live standing
 
 ---
 
-## Features
-
-### Core
-1. **Interactive Bracket & Standings** — 12-group tables with live form indicators + full knockout bracket (R32 → Final) with champion prediction leaderboard
-2. **Match Score Predictor** — Predict match scores before kickoff, earn points for correct predictions
-3. **Fantasy Football** — Build 11-player squads (1-4-4-2 formation) within a $150m budget. Squad rating, leaderboard, and player costs based on real Transfermarkt values
-4. **Match Discussion Wall** — Comment on matches with upvote/downvote system, real-time polling
-
-### Data & Knowledge
-5. **Player Stats & Golden Boot Race** — All 671 players searchable by name/team, top scorer leaderboard with accurate 2026 WC data, head-to-head team comparison with historical rivalry data
-6. **World Cup History & Records Hub** — Historical tournament data, all 22 editions, records, and host nations
-7. **Tournament Trivia Quiz** — Interactive trivia questions about World Cup history
-
-### Experience
-8. **Host Stadiums & Venues Showcase** — All 16 host stadiums with capacity, region, and tournament stats
-9. **Team Squad Showcase** — Complete squads for all 48 qualified nations with position filters and confederation groups
-
-### Admin
-10. **Admin Dashboard** — Match result management, goal/assist/card event tracking, match status control (UPCOMING → LIVE → COMPLETED), event summary preview, dashboard overview with stats
-
----
-
-## Screenshots
-
-The app features a dark football theme with WC2026 gold (`#D4AF37`) accents, responsive design, and smooth animations.
-
----
-
-## Local Development
+## 🚀 Local Development
 
 ### Prerequisites
 - Node.js (v18+)
@@ -100,7 +169,7 @@ npm run dev            # Runs on http://localhost:5173
 
 ---
 
-## Environment Variables
+## 🌐 Environment Variables
 
 ### Frontend (`client/.env`)
 ```
@@ -123,7 +192,7 @@ FRONTEND_URL=http://localhost:5173
 
 ---
 
-## Deployment (Fully Free)
+## ☁️ Deployment (Fully Free)
 
 | Service | Provider | Free Tier |
 |---------|----------|-----------|
@@ -163,7 +232,7 @@ mysql -h <HOST> -P 4000 -u <USER> -p <DB_NAME> < db/tidb_seed.sql
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 TactIQ/
@@ -216,7 +285,7 @@ TactIQ/
 
 ---
 
-## Database Schema
+## 🗄️ Database Schema
 
 17 normalized tables with foreign key constraints:
 
@@ -242,38 +311,7 @@ TactIQ/
 
 ---
 
-## API Endpoints
-
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/api/auth/register` | No | Register new user |
-| POST | `/api/auth/login` | No | Login, get JWT |
-| GET | `/api/auth/me` | Yes | Get current user |
-| GET | `/api/matches` | No | List all matches |
-| GET | `/api/matches/:id` | Optional | Match detail + events |
-| POST | `/api/matches/:id/prediction` | Yes | Submit score prediction |
-| GET | `/api/matches/:id/comments` | Optional | Match comments |
-| POST | `/api/matches/:id/comments` | Yes | Post comment |
-| POST | `/api/matches/comments/:id/vote` | Yes | Upvote/downvote |
-| DELETE | `/api/matches/comments/:id` | Yes | Delete own comment |
-| PATCH | `/api/matches/:id/result` | Admin | Update match score |
-| PATCH | `/api/matches/:id/status` | Admin | Update match status |
-| GET | `/api/standings/groups` | No | Group standings |
-| GET | `/api/standings/bracket` | No | Knockout bracket |
-| GET | `/api/stats/players` | No | All players (filtered) |
-| GET | `/api/stats/teams` | No | All teams |
-| GET | `/api/stats/golden-boot` | No | Top scorers |
-| GET | `/api/stats/head-to-head` | No | Team comparison |
-| GET | `/api/fantasy/team` | Yes | Get my squad |
-| POST | `/api/fantasy/team` | Yes | Create/update squad |
-| GET | `/api/fantasy/leaderboard` | No | Fantasy rankings |
-| GET | `/api/bracket/predictions` | Yes | My bracket picks |
-| POST | `/api/bracket/predictions` | Yes | Save bracket picks |
-| GET | `/api/bracket/champion-leaderboard` | No | Champion predictions |
-
----
-
-## Security
+## 🔐 Security
 
 - JWT authentication with `optionalAuth` for public routes that benefit from user context
 - Admin-only endpoints protected with `requireAdmin` middleware
@@ -284,6 +322,14 @@ TactIQ/
 
 ---
 
-## License
+<div align="center">
+
+### 📄 License
 
 MIT
+
+---
+
+**Built with ❤️ for football fans worldwide**
+
+</div>
