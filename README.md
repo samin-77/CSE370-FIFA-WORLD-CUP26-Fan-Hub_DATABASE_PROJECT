@@ -87,10 +87,3 @@ A visual and informative guide, this showcase profiles the iconic host stadiums 
 The engine behind the platform, this centralized command center allows administrators to control tournament data seamlessly. Admins can update match scores, log individual goals or assists, and hand out disciplinary cards in real-time. It automatically syncs these entries across the database, pushing instant updates to the fantasy league, brackets, and predictors.
 
 ---
-
-<div align="center">
-
-
-MIT
-
-</div>
